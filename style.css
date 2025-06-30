@@ -1,14 +1,17 @@
+/* 全体のフォント設定とリセット */
 body {
-    font-family: 'Poppins', 'Noto sans JP',sans-serif;
+    font-family: 'Poppins', 'Noto Sans JP', sans-serif;
     margin: 0;
     padding: 0;
 }
 
+/* ヘッダー */
 header {
     background-color: #333;
     color: white;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 1rem;
 }
 
@@ -18,12 +21,13 @@ nav a {
     text-decoration: none;
 }
 
+/* ヒーローセクション */
 .hero {
-text-align: center;
-margin: 0 auto;
-max-width: 1200px;
-padding: 100px 20px;
-background-color: #f8f9fa;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 100px 20px;
+    background-color: #f8f9fa;
 }
 
 .hero h2,
@@ -33,6 +37,7 @@ background-color: #f8f9fa;
     display: block;
 }
 
+/* ボタン */
 .btn {
     display: inline-block;
     background-color: #007bff;
@@ -43,6 +48,7 @@ background-color: #f8f9fa;
     margin-top: 20px;
 }
 
+/* 特徴セクション */
 .features {
     padding: 80px 20px;
     background-color: #ffffff;
@@ -64,7 +70,8 @@ background-color: #f8f9fa;
     font-weight: bold;
 }
 
-footer{
+/* フッター */
+footer {
     background-color: #333;
     color: white;
     text-align: center;
